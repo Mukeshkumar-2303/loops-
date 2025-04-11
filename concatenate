@@ -1,0 +1,12 @@
+user_input = input("Please enter a text: ")
+
+# variable for new input
+new_input = ""
+
+# loop
+for letter in user_input:
+    # add - after character and concatenate into new_input
+    new_input += letter + "-"
+
+
+print(new_input)

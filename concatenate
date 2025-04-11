@@ -1,4 +1,4 @@
-user_input = input("Please enter a text: ")
+user = input("Please enter a text: ")
 
 # variable for new input
 new_input = ""
